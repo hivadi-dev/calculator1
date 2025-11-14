@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css">
+
+</head>
+
+<body>
+    <div class="container">
+        <h1>calculator</h1>
+        <input type="text" id="num1" placeholder="first number">
+        <input type="text" id="num2" placeholder="second number">
+        <div class="buttons">
+            <button onclick="_op('+')">+</button>
+            <button onclick="_op('-')">-</button>
+            <button onclick="_op('*')">*</button>
+            <button onclick="_op('/')">/</button>
+            <button onclick="_sum('=')">=</button>
+            <button onclick="_clearAll()">C</button>
+        </div>
+        <em id="sum"></em>
+    </div>
+
+</body>
+<script src="script.js"></script>
+
+</html>
